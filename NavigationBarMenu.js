@@ -2,12 +2,12 @@
 
 
 
-    let targetHTMLElement = document.createElement('template');
+    let tmpl = document.createElement('template');
     // tmpl.innerHTML = ``;
 
     fetch("template.html").then((response) => {
       response.text().then((text) => {
-        targetHTMLElement.innerHTML = text;
+        tmpl.innerHTML = text;
       });
     })
 
