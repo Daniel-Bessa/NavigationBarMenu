@@ -5,7 +5,7 @@
     let tmpl = document.createElement('template');
     // tmpl.innerHTML = ``;
 
-    fetch("template.html").then((response) => {
+    fetch("./template.html").then((response) => {
       response.text().then((text) => {
         tmpl.innerHTML = text;
       });
