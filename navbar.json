@@ -1,28 +1,26 @@
 {
-  "id": "com.sap.sample.navbarmenu.aps",
-  "version": "0.0.1",
-  "name": "NavigationBarMenu",
-  "description": "Navigation Bar Menu Custom Widget",
-  "newInstancePrefix": "NavigationBarMenu",
-  "eula": "",
-  "license": "",
-  "imports": [ "input-controls" ],
-  "webcomponents": [
-    {
-      "kind": "main",
-      "tag": "com-sap-sample-navbarmenu-aps",
-      "url": "https://daniel-bessa.github.io/navigation-bar-menu.js",
-      "integrity": "",
-      "ignoreIntegrity": true
-    }
-  ],
-  "properties": {
-  },
-  "methods": {
-  },
-  "events": {
-  	"onClick": {
-      "description": "onClick events trigger"
-    }
-  }
+	"name": "Navigation Bar - Menu",
+	"description": "Navigation Bar Custom Widget",
+	"eula": "",
+	"vendor": "Daniel Santos",
+	"license": "",
+	"id": "com.sap.navigation.bar.menu",
+	"newInstancePrefix": "NavigationBarMenu",
+	"version": "0.0.2",
+	"icon": "",
+	"webcomponents": [
+      {
+        "kind": "main",
+        "tag": "com-sap-navigation-bar-menu",
+        "url": "https://daniel-bessa.github.io/navigation-bar-menu.js",
+        "integrity": "",
+        "ignoreIntegrity": true
+      }
+    ],
+	"properties": {
+	},
+	"methods": {
+	},
+	"events": {
+	}
 }
