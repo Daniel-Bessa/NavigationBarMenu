@@ -3,6 +3,9 @@
     tmpl.innerHTML = `
       <style>
       </style>
+      <nav>
+        <h2>Test</h2>
+      </nav>
     `;
 
     customElements.define('com-sap-navigation-bar-menu', class NavigationBarMenu extends HTMLElement {

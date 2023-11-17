@@ -12,9 +12,15 @@
     {
       "kind": "main",
       "tag": "com-sap-navigation-bar-menu",
-      "url": "http:github.com/daniel-santos/navigationBarMenu",
+      "url": "https://daniel-bessa.github.io/NavigationBarMenu/NavigationBarMenu.js",
       "integrity": "",
       "ignoreIntegrity": true
     }
-  ]
+  ],
+  "properties": {
+  },
+  "methods": {
+  },
+  "events": {
+  }
 }
