@@ -1,12 +1,14 @@
 (function()  {
     let tmpl = document.createElement('template');
     tmpl.innerHTML = `
-      <style>
-      </style>
-      <nav>
-        <h2>Test</h2>
-        <h2>Test</h2>
-      </nav>
+      <head>
+        <link rel="import" href="template.html" id="myTemplate">
+        <style></style>
+      </head>
+      <body>
+        <div id="container"></div>
+      </body>
+
     `;
 
     customElements.define('com-sap-navigation-bar-menu', class NavigationBarMenu extends HTMLElement {
