@@ -1,0 +1,28 @@
+{
+  "id": "com.sap.sample.navbarmenu.aps",
+  "version": "0.0.1",
+  "name": "NavigationBarMenu",
+  "description": "Navigation Bar Menu Custom Widget",
+  "newInstancePrefix": "NavigationBarMenu",
+  "eula": "",
+  "license": "",
+  "imports": [ "input-controls" ],
+  "webcomponents": [
+    {
+      "kind": "main",
+      "tag": "com-sap-sample-navbarmenu-aps",
+      "url": "https://daniel-bessa.github.io/navigation-bar-menu.js",
+      "integrity": "",
+      "ignoreIntegrity": true
+    }
+  ],
+  "properties": {
+  },
+  "methods": {
+  },
+  "events": {
+  	"onClick": {
+      "description": "onClick events trigger"
+    }
+  }
+}
