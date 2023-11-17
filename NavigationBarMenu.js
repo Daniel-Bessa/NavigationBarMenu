@@ -5,6 +5,7 @@
       </style>
       <nav>
         <h2>Test</h2>
+        <h2>Test</h2>
       </nav>
     `;
 
