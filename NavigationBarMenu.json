@@ -1,0 +1,20 @@
+{
+  "name": "Navigation Bar Menu",
+  "description": "Navigation Bar Menu - Custom Widget",
+  "eula": "",
+  "vendor": "Daniel Santos",
+  "license": "",
+  "id": "com.sap.navigation.bar.menu",
+  "newInstancePrefix": "NavigationBarMenu",
+  "version": "0.0.1",
+  "icon": "",
+  "webcomponents": [
+    {
+      "kind": "main",
+      "tag": "com-sap-navigation-bar-menu",
+      "url": "http:github.com/daniel-santos/navigationBarMenu",
+      "integrity": "",
+      "ignoreIntegrity": true
+    }
+  ]
+}
